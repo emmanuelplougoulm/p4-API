@@ -12,7 +12,7 @@ module.exports = {
       host: [{ host: "193.70.115.32", port: "1025" }],
       ref: "origin/main",
       repo: "https://github.com/emmanuelplougoulm/p4-API",
-      path: "/home/debian/pm2",
+      path: "/var/www/api.p4-collectif.com",
       "pre-deploy-local": "",
       "post-deploy":
         "npm install && pm2 reload ecosystem.config.js --env production",
