@@ -8,7 +8,7 @@ module.exports = {
 
   deploy: {
     production: {
-      key: "/home/debian/.ssh/id_rsa.pub", // path to the public key to authenticate
+      key: "/Users/e/.ssh/id_rsa.pub", // path to the public key to authenticate
       user: "debian",
       host: [{ host: "193.70.115.32", port: "1025" }],
       ref: "origin/main",
